@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @bdae.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @bdae.lastname %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @bdae.date %>
+</p>
+
+<%= link_to 'Edit', edit_bdae_path(@bdae) %> |
+<%= link_to 'Back', bdaes_path %>

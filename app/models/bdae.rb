@@ -1,0 +1,2 @@
+class Bdae < ApplicationRecord
+end
