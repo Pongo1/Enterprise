@@ -4,10 +4,17 @@
     <title>Enterprise</title>
     <%= csrf_meta_tags %>
 
+
+
    
   </head>
 
   <body>
+
+  <%= link_to "Home", pages_home_path %>
+  <%= link_to "Contacts", pages_contact_path %>
+  <%= link_to "About", pages_about_path %>
+  <%= link_to "Birthday List", bdaes_path %>
     <%= yield %>
   </body>
 </html>
